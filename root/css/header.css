@@ -21,7 +21,7 @@ a {
 }
 
 /* Hover animation from left to right */
-a::after {
+header a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -34,7 +34,7 @@ a::after {
     transition: transform 600ms ease-out;
 }
 
-a:hover::after {
+header a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 

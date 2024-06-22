@@ -1,17 +1,12 @@
-.img-container,
+/* .img-container,
 .icon-container,
 h1,
 ul {
     animation: fadeIn 6s;
-}
+} */
 
-.img-container,
 .icon-container {
     margin: 0 auto;
-}
-
-.img-container {
-    width: 300px;
 }
 
 .icon-container {
@@ -23,6 +18,7 @@ ul {
 #angle-icon {
     color: var(--black);
     font-size: 3em;
+    cursor: pointer;
 }
 
 @keyframes fadeIn {

@@ -1,0 +1,49 @@
+.container {
+    border: 2px solid var(--black);
+    margin: 2em;
+    background-color: var(--white);
+}
+
+h2 {
+    font-family: var(--h2);
+    text-align: center;
+    font-size: 1.7em;
+    margin: 1em 0 .5em 0;
+}
+
+p {
+    max-width: 45ch;
+    letter-spacing: .05em;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.link-container {
+    width: fit-content;
+    margin: 1em auto;
+    display: flex;
+    gap: 1em;
+}
+
+#contact-link,
+#portfolio-link {
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    padding: .5em;
+    text-align: center;
+}
+
+#contact-link {
+    background-color: var(--pink);
+}
+
+#contact-link:hover,
+#portfolio-link:hover {
+    background-color: var(--light-pink);
+}
+
+#home .img-container {
+    max-width: 100px;
+    margin: 0;
+}
