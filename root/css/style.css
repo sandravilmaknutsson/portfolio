@@ -1,9 +1,8 @@
 @import "../css/root.css";
-@import "../css/pages/index.css";
 @import "../css/animations.css";
 
 body {
-    background: #654ea3;
+    background: var(--pink);
     background: -webkit-linear-gradient(to right, var(--pink), var(--light-pink));
     background: linear-gradient(to right, var(--pink), var(--light-pink));
 }
