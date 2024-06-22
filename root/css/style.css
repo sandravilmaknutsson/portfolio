@@ -15,8 +15,11 @@ body {
 
 h1 {
     font-family: var(--h1);
+    color: var(--black);
+    width: fit-content;
+    margin: 2em auto;
 }
 
-h2 {
-    font-family: var(--h2);
+img {
+    width: 100%;
 }

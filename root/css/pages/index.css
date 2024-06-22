@@ -1,3 +1,36 @@
-img {
+.img-container,
+.icon-container,
+h1,
+ul {
+    animation: fadeIn 6s;
+}
+
+.img-container,
+.icon-container {
+    margin: 0 auto;
+}
+
+.img-container {
     width: 300px;
+}
+
+.icon-container {
+    max-width: 200px;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#angle-icon {
+    color: var(--black);
+    font-size: 3em;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
