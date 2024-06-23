@@ -1,49 +1,57 @@
-.container {
-    border: 2px solid var(--black);
-    margin: 2em;
-    background-color: var(--white);
-}
-
-h2 {
-    font-family: var(--h2);
-    text-align: center;
-    font-size: 1.7em;
-    margin: 1em 0 .5em 0;
-}
-
-p {
-    max-width: 45ch;
-    letter-spacing: .05em;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 1.5em;
-}
-
-.link-container {
-    width: fit-content;
-    margin: 1em auto;
+form {
     display: flex;
-    gap: 1em;
+    flex-direction: column;
+    gap: .5em;
+    justify-content: center;
+    align-items: center;
+    margin: 2em auto;
 }
 
-#contact-link,
-#portfolio-link {
-    border: 2px solid var(--black);
+input[type=text],
+textarea,
+#contact button {
+    width: 80%;
     border-radius: 10px;
-    padding: .5em;
-    text-align: center;
+    border: 1px solid var(--black);
+    padding: 0 1em;
 }
 
-#contact-link {
-    background-color: var(--pink);
+#contact button,
+input[type=text] {
+    height: 2em;
 }
 
-#contact-link:hover,
-#portfolio-link:hover {
-    background-color: var(--light-pink);
+textarea {
+    min-height: 6em;
 }
 
-#home .img-container {
-    max-width: 100px;
-    margin: 0;
+#contact button {
+    width: 87%;
+    animation: shake-button 2s infinite;
+}
+
+@keyframes shake-button {
+    0% {
+        transform: skewY(-2deg);
+    }
+
+    5% {
+        transform: skewY(2deg);
+    }
+
+    10% {
+        transform: skewY(-2deg);
+    }
+
+    15% {
+        transform: skewY(2deg);
+    }
+
+    20% {
+        transform: skewY(0deg);
+    }
+
+    100% {
+        transform: skewY(0deg);
+    }
 }
