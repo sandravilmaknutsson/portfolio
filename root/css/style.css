@@ -20,6 +20,11 @@ h1 {
     margin: 2em auto;
 }
 
+h5 {
+    font-size: 1em;
+    text-decoration: underline;
+}
+
 .img-container {
     width: 300px;
     margin: 0 auto;

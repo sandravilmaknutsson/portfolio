@@ -1,0 +1,13 @@
+article {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+article ul {
+    display: block;
+    margin-left: 2em;
+}
+
+article li {
+    list-style-type: circle;
+}
